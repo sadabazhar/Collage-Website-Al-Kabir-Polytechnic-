@@ -37,7 +37,9 @@ function Home() {
             <div className='container d-flex flex-column align-items-center'>
                 <h2>Welcome To</h2>
                 <h2 className='text-center fw-semibold'>Al-Kabir Institute Of Management & Technology</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi debitis, et quas voluptatibus nam ex. Necessitatibus eligendi ratione expedita! Porro, ut.</p>
+                <p style={{ textAlign: 'center', margin: '0 auto', padding: '20px 0', fontSize: '18px', fontFamily: 'Georgia, serif' }}>
+                    As a unit of the Kabir Welfare Trust, our institution is proud to be approved by AICTE and affiliated with the Jharkhand University of Technology (JUT). These accreditations from the Government of India and the Government of Jharkhand ensure our commitment to high academic standards and quality education.
+                </p>
                 <div className='d-flex flex-column flex-sm-row align-items-center'>
                     <Link to="#">
                         <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Log In</button>

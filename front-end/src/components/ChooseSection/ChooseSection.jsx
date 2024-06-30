@@ -19,7 +19,8 @@ function ChooseSection() {
                                 7 trophies received
                             </Card.Title>
                             <Card.Text className='text-center'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit laborum qui facilis perspiciatis, ab pariatur! Eaque maxime ratione illum distinctio?
+                                2 trophies from Arka Jain University, Jamshedpur
+                                5 trophies from NSU, Jamshedpur
                             </Card.Text>
                         </Card.Body>
                     </Card>
