@@ -15,49 +15,49 @@ const courses = [
     {
         id: 1,
         img: [ArtCourseImg],
-        title: 'Art Course',
+        title: 'Mechnical Engineering',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
     },
     {
         id: 2,
         img: [BusinessCourseImg],
-        title: 'Business Course',
+        title: 'Electrical Engineering',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
     },
     {
         id: 3,
         img: [ComputerScienceCourseImg],
-        title: 'Computer Science Course',
+        title: 'Computer Science Engineering',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
     },
     {
         id: 4,
         img: [EducationCourseImg],
-        title: 'Education Course',
+        title: 'Electronic Engineering',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
     },
     {
         id: 5,
         img: [HealthcareCourseImg],
-        title: 'Healthcare Course',
+        title: 'Civil Engineering',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
     },
     {
         id: 6,
         img: [LawCourseImg],
-        title: 'Law Course',
+        title: 'Automobile Engineering',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
     },
     {
         id: 7,
         img: [MusicCourseImg],
-        title: 'Music Course',
+        title: 'Bachelor of Business Administratoion',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
     },
     {
         id: 8,
         img: [SportCourseImg],
-        title: 'Sport Course',
+        title: 'Bachelor of Computer Administratoion',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
     },
 ];
