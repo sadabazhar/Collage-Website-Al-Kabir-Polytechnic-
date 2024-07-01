@@ -16,7 +16,7 @@ header h1 {
 }
 
 .navbar .navbar-nav .nav-link:hover {
-  color: #dc3545;
+  color: #06D001;
 }
 
 nav .navbar-toggler:focus {
@@ -39,9 +39,20 @@ nav .navbar-toggler:focus {
   fill: #212529;
 }
 
+.footer-navigation li{
+  color: green;
+  font-weight: bold;
+}
+
 .footer-navigation li:hover {
   color: #212529;
 }
+
+.list-unstyled li {
+  font-size: 14px;
+  font-weight: bold;
+}
+
 
 @media only screen and (max-width: 992px) {
   #basic-navbar-nav {

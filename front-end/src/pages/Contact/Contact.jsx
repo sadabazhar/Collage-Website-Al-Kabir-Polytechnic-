@@ -64,7 +64,20 @@ function Contact() {
                     <Form.Control as="textarea" rows={3} />
                 </Form.Group>
 
-                <Button variant="danger btn-lg" type='submit'>Submit</Button>
+                <style>
+                        {`
+                        .custom-hover {
+                            background-color: #06D001;
+                            border-color: #ffffff;
+                            color: white;
+                        }
+                        .custom-hover:hover {
+                            border-color: #ffffff;
+                            background-color: green;
+                        }
+                        `}
+                    </style>
+                <Button className='custom-hover' variant="danger btn-lg" type='submit'>Submit</Button>
             </Form>
         </div>
 

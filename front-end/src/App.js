@@ -54,8 +54,21 @@ function App() {
         <div className='container my-5'>
           <div className='row d-flex justify-content-between align-items-center'>
             <div className='col-md-4'>
+              <style>
+                {`
+                  .custom-hover {
+                    background-color: #06D001;
+                    border-color: #ffffff;
+                    color: white;
+                  }
+                  .custom-hover:hover {
+                    border-color: #ffffff;
+                    background-color: green;
+                  }
+                `}
+              </style>
               <Link to="/contact">
-                <button type='button' className='btn btn-outline-danger btn-lg mb-5 mb-md-4'>Get In Touch</button>
+              <button type="button" class="btn btn-outline-danger btn-lg mb-5 mb-md-4 custom-hover">Get In Touch</button>
               </Link>
               <ul className='footer-social-icons list-unstyled d-flex justify-content-between'>
                 <Link to="/contact">
