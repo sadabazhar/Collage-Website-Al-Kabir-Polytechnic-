@@ -77,3 +77,46 @@ nav .navbar-toggler:focus {
     font-size: 2rem;
   }
 }
+
+/* Styling Favicones */
+
+.margin-top{
+  margin-top: 15px;
+}
+
+.fa-facebook{
+  color: #3b5998;
+}
+
+.fa-facebook:hover{
+  color: #3b5998;
+  transform: translateY(-5px);
+  transition: transform 0.5s;
+}
+
+.fa-linkedin{
+  color: #0a66c2;
+}
+.fa-linkedin:hover{
+  color: #0a66c2;
+  transform: translateY(-5px);
+  transition: transform 0.5s;
+}
+
+.fa-twitter{
+  color: #00acee;
+}
+.fa-twitter:hover {
+  color: #00acee;
+  transform: translateY(-5px);
+  transition: transform 0.5s;
+}
+
+.fa-youtube{
+  color:#FF0000;
+}
+.fa-youtube:hover{
+  color:#FF0000;
+  transform: translateY(-5px);
+  transition: transform 0.5s;
+}
