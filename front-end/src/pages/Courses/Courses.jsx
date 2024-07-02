@@ -3,13 +3,13 @@ import './Courses.css';
 import { Card } from 'react-bootstrap';
 import MechanicalImg from '../../utils/images/machenical.jpg';
 import ArtCourseImg from '../../utils/images/art-course.jpg';
-import BusinessCourseImg from '../../utils/images/business-course.jpg';
-import ComputerScienceCourseImg from '../../utils/images/computer-science-course.jpg';
-import EducationCourseImg from '../../utils/images/electronic.jpg';
-import HealthcareCourseImg from '../../utils/images/healthcare-course.jpg';
-import LawCourseImg from '../../utils/images/law-course.jpg';
-import MusicCourseImg from '../../utils/images/music-course.jpg';
-import SportCourseImg from '../../utils/images/sport-course.jpg';
+import ElectricalImg from '../../utils/images/electrical.jpeg';
+import ComputerScienceCourseImg from '../../utils/images/computer-science-course.jpeg';
+import ElectronicCourseImg from '../../utils/images/electronic.jpeg';
+import CivilCourseImg from '../../utils/images/civil.jpg';
+import AutoMobileImg from '../../utils/images/auto mobile.jpeg';
+import BBAImg from '../../utils/images/bba.jpeg';
+import BCAImg from '../../utils/images/bca.jpeg';
 import FaqAccordion from '../../components/FaqAccordion/FaqAccordion';
 
 const courses = [
@@ -21,7 +21,7 @@ const courses = [
     },
     {
         id: 2,
-        img: [BusinessCourseImg],
+        img: [ElectricalImg],
         title: 'Electrical Engineering',
         description: 'The Electrical Engineering department at Al-Kabir Polytechnic started in 1994 with 30 students, now expanded to accommodate 180. Our labs—basic electrical engineering, electrical machine, measurement, and electrical workshop—are equipped to solve complex problems and train students in real-world electrical system design and supervision.'
     },
@@ -33,31 +33,31 @@ const courses = [
     },
     {
         id: 4,
-        img: [EducationCourseImg],
+        img: [ElectronicCourseImg],
         title: 'Electronic Engineering',
         description: 'Since 1994, the Department of Electronics & Communication Engineering has offered quality education for a Diploma, expanding from 30 to 90 students. With skilled faculty and advanced labs, we focus on essential technical and practical knowledge. Our students excel in placements, attracting many prestigious companies for recruitment.'
     },
     {
         id: 5,
-        img: [HealthcareCourseImg],
+        img: [CivilCourseImg],
         title: 'Civil Engineering',
         description: 'Established in 2008, the Department of Civil Engineering at Al-Kabir Polytechnic initially admitted 60 students annually, increasing to 120 by 2011. The curriculum includes cutting-edge technology like AutoCAD, structure detailing, and advanced surveying, supported by well-equipped labs. Our energetic faculty, with industrial experience, bridges the gap between academics and modern technology.'
     },
     {
         id: 6,
-        img: [LawCourseImg],
+        img: [AutoMobileImg],
         title: 'Automobile Engineering',
         description: 'The Department of Automobile Engineering at Al-Kabir Polytechnic integrates mechanical, electrical, electronics, software, and safety engineering. This branch focuses on the design, manufacture, and operation of motorcycles, automobiles, buses, trucks, and their subsystems. The department has an intake capacity of 30 students.'
     },
     {
         id: 7,
-        img: [MusicCourseImg],
+        img: [BBAImg],
         title: 'BBA',
         description: 'Since its inception, the Bachelor of Business Administration (BBA) program has provided quality education in business management. Starting with a modest intake, it has grown significantly. With experienced faculty and modern facilities, we focus on essential business skills and practical knowledge. Our students excel in placements, attracting numerous prestigious companies for recruitment.'
     },
     {
         id: 8,
-        img: [SportCourseImg],
+        img: [BCAImg],
         title: 'BCA',
         description: 'Since its inception, the Bachelor of Computer Applications (BCA) program has provided quality education in computer science. Starting with a modest intake, it has grown significantly. With experienced faculty and modern facilities, we focus on essential technical skills and practical knowledge. Our students excel in placements, attracting numerous prestigious companies for recruitment.'
     },
