@@ -13,20 +13,21 @@ const blogs = [
     {
         id: 1,
         img: [Blog1Img],
-        title: 'Blog 1',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi debitis, et quas voluptatibus nam ex. Necessitatibus eligendi ratione expedita! Porro, ut.'
+        title: 'GITHUB',
+        description: 'GitHub, an American company, stores and tracks project source code in various programming languages. As of October 2020, it is the leading source code host, with over 60 million new repositories and 56 million developers. GitHub is a popular platform for code sharing, project management, and collaboration. It features a strong open-source community and is an affordable, cloud-based tool that makes code visible across an organization, facilitating contributions from all participants.'
     },
     {
         id: 2,
         img: [Blog2Img],
-        title: 'Blog 2',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi debitis, et quas voluptatibus nam ex. Necessitatibus eligendi ratione expedita! Porro, ut.'
+        title: 'Balance Work-Life',
+        description: `In todays fast-paced world, balancing work and personal life is essential for maintaining overall well-being. This balance is not just about managing time efficiently but also about ensuring mental and physical health.
+        Balancing work and life is an ongoing process that requires conscious effort and adjustments. By implementing these strategies, you can create a more balanced and fulfilling life, ultimately enhancing your productivity and happiness both at work and in your personal life.`
     },
     {
         id: 3,
         img: [Blog3Img],
-        title: 'Blog 3',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi debitis, et quas voluptatibus nam ex. Necessitatibus eligendi ratione expedita! Porro, ut.'
+        title: 'language Lab',
+        description: `A language lab engages students in active language learning, offering more practice time than typical classrooms. It increases each student's speaking time, addressing the common issue of oral proficiency. Traditional language programs often fail to make students fluent, but language labs and similar technologies efficiently solve this problem. Additionally, language lab software enhances teaching, improves learners' overall personalities, and helps overcome interview fears with soft skills courses. It ensures all students can hear the teacher clearly, enhances focus through headsets, and provides varied activities like accent training, phonetics, and pronunciation.`
     }
 ];
 
