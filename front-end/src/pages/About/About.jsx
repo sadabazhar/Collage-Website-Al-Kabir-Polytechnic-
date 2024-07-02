@@ -58,16 +58,16 @@ function About() {
         <header className='height-75'>
             <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
                 <h1 className='text-center fw-semibold'>About Us</h1>
-                <p className='text-center w-75 mb-5'>A Legacy of Excellence in Engineering and Business Education</p>
+                <p className='text-center w-75 mb-5'>Al-Kabir Polytechnic, a unit of Kabir Welfare Trust (KWT), was established in 1990 with financial aid from the Islamic Development Bank (IDB) Jeddah. Founded under the vision of Late Haji Abdul Hakim, KWT operates under the Society Registration Act 1860. The institute offers three-year diploma courses in six branches of engineering and is renowned for its commitment to quality education and social responsibility.</p>
             </div>
         </header>
 
         <div className='container my-5'>
             <div className="row">
                 <div className='col-lg-6 d-flex flex-column justify-content-center mb-4 mb-lg-0'>
-                    <h2 className='mb-4 mb-lg-5'>Study with us</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, sunt saepe fugit dolores error mollitia doloribus optio, recusandae aperiam, nihil eius rem eum eaque sequi. Earum perspiciatis laudantium at quo sapiente perferendis distinctio, voluptatum obcaecati ipsa, eos nesciunt saepe adipisci placeat ducimus! Dignissimos quaerat fugiat consequuntur tempora fuga eveniet nobis!</p>
-                    <p className='mb-4 mb-lg-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et quas ipsa assumenda eos veritatis nemo fuga dolore saepe eius, laborum earum magni id quae quidem tempore tempora consequuntur eveniet voluptatibus, suscipit atque, voluptatem blanditiis deleniti perferendis dolores. Architecto corporis sit suscipit labore modi sint facilis alias laboriosam facere et? Quo eum neque dolores iure, nam voluptates nesciunt quisquam modi maxime alias! Blanditiis vel dicta voluptates ab vero quia incidunt facilis ratione deserunt, inventore atque necessitatibus?</p>
+                    <h2 className='mb-4 mb-lg-5'>The Campus and The Institute</h2>
+                    <p>The institute is located at the foothills of the Dalma range, 12 km from Tatanagar railway station and 4 km from Mango bus stand, providing a peaceful atmosphere for academics. Spread over 10 acres, it features three double-storied buildings, an in-house nationalized bank, equipped laboratories, workshops, lecture halls, a library, and a large playground. Regular activities include audio-visual training, guest lectures, seminars, and industrial visits.</p>
+                    <p className='mb-4 mb-lg-5'>The polytechnic has three hostels, including a separate girls' hostel, and a certified mess and canteen offering hygienic meals. A nearby marketplace meets daily needs. Founded by Haji Abdul Hakim Sahab in 1921, who passed on February 2, 2011, the institute continues his mission of serving mankind. Haji Abdul Hakim, educated at St. Columbus College, inherited business acumen from his father, Janab Kabir Sahab, a pioneer in the city's small-scale industrial sector.</p>
                     <style>
                         {`
                         .custom-hover {
@@ -86,7 +86,7 @@ function About() {
                     </Link>
                 </div>
                 <div className='col-lg-6 d-flex justify-content-center'>
-                    <img src={AboutUsSectionImg} className='img-fluid w-75' alt="" />
+                    <img src={AboutUsSectionImg} className='img-fluid w-80' alt="" />
                 </div>
             </div>
         </div>
