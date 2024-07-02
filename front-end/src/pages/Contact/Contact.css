@@ -23,3 +23,8 @@
         width: 100%;
     }
 }
+
+.fa-location-dot{
+    margin-right: 12px;
+    color: #EA4335;
+}
