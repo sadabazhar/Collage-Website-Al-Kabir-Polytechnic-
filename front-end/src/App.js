@@ -16,10 +16,11 @@ function App() {
       <Navbar expand="lg" className='position-absolute w-100'>
         <Container>
           <Navbar.Brand>
-            <Link to="/" className='navbar-brand d-flex align-items-center'>
-              <svg width="48" height="48">
-              <image href={Logo} />
-              </svg>
+            <Link to="https://akp.ac.in/" className='navbar-brand d-flex align-items-center'>
+            <svg width="68" height="68" viewBox="0 0 48 48" style={{ marginRight: '10px', borderRadius: '50%', overflow: 'hidden', backgroundColor: 'white' }}>
+            <circle cx="24" cy="24" r="24" fill="white" />
+            <image href={Logo} x="4" y="4" height="40" width="40" style={{ borderRadius: '50%' }} />
+            </svg>
               <span className='mx-2 text-light lh-1 fw-semibold'>
                 Al-Kabir
                 <br></br>
