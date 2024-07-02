@@ -17,49 +17,49 @@ const courses = [
         id: 1,
         img: [MechanicalImg],
         title: 'Mechnical Engineering',
-        description: "The Mechanical Engineering Department at Al-Kabir Polytechnic started in 1994 with an intake of 30 students, which has since grown to accommodate 180 students. Over 25 years, we've developed expertise in core Mechanical Engineering and expanded our facilities, including advanced labs like Material Testing, Hydraulic, CAD/CAM, and Thermal Engineering. These labs support our objectives of solving complex engineering problems and preparing students to design and supervise mechanical systems in industry and daily life."
+        description: "The Mechanical Engineering Department at Al-Kabir Polytechnic began in 1994 with 30 students and now accommodates 180. Over 25 years, we've expanded our expertise and facilities, including advanced labs like Material Testing, Hydraulic, CAD/CAM, and Thermal Engineering. These labs help solve complex engineering problems and prepare students to design and supervise mechanical systems in industry and daily life."
     },
     {
         id: 2,
         img: [ElectricalImg],
         title: 'Electrical Engineering',
-        description: 'The Electrical Engineering department at Al-Kabir Polytechnic started in 1994 with 30 students, now expanded to accommodate 180. Our labs—basic electrical engineering, electrical machine, measurement, and electrical workshop—are equipped to solve complex problems and train students in real-world electrical system design and supervision.'
+        description: "The Electrical Engineering department at Al-Kabir Polytechnic began in 1994 with 30 students and now accommodates 180. Our well-equipped labs in basic electrical engineering, electrical machines, measurement, and workshops prepare students to solve complex problems and design real-world electrical systems."
     },
     {
         id: 3,
         img: [ComputerScienceCourseImg],
         title: 'CSE',
-        description: 'The Department of Computer Science & Engineering was established at Al-Kabir Polytechnic, Jamshedpur in 1998 with an initial intake of 30 students, later increased to 90 by 2002 as per AICTE norms. Our vision is to be a leader in Computer Science & Engineering, fostering excellence in education, research, and innovation. We aim to produce competent, self-motivated professionals who contribute technological solutions to society.'
+        description: "The Computer Science & Engineering Department at Al-Kabir Polytechnic, Jamshedpur, was established in 1998 with 30 students and expanded to 90 by 2002. Our vision is to lead in education, research, and innovation, producing competent professionals who contribute technological solutions to society."
     },
     {
         id: 4,
         img: [ElectronicCourseImg],
         title: 'Electronic Engineering',
-        description: 'Since 1994, the Department of Electronics & Communication Engineering has offered quality education for a Diploma, expanding from 30 to 90 students. With skilled faculty and advanced labs, we focus on essential technical and practical knowledge. Our students excel in placements, attracting many prestigious companies for recruitment.'
+        description: "Since 1994, the Electronics & Communication Engineering Department has grown from 30 to 90 students, offering quality diploma education. With skilled faculty and advanced labs, we focus on essential technical knowledge. Our students excel in placements, attracting many prestigious recruiters."
     },
     {
         id: 5,
         img: [CivilCourseImg],
         title: 'Civil Engineering',
-        description: 'Established in 2008, the Department of Civil Engineering at Al-Kabir Polytechnic initially admitted 60 students annually, increasing to 120 by 2011. The curriculum includes cutting-edge technology like AutoCAD, structure detailing, and advanced surveying, supported by well-equipped labs. Our energetic faculty, with industrial experience, bridges the gap between academics and modern technology.'
+        description: "Established in 2008, the Civil Engineering Department at Al-Kabir Polytechnic grew from 60 to 120 students annually by 2011. The curriculum includes AutoCAD, structure detailing, and advanced surveying, supported by well-equipped labs. Our experienced faculty bridges the gap between academics and modern technology."
     },
     {
         id: 6,
         img: [AutoMobileImg],
         title: 'Automobile Engineering',
-        description: 'The Department of Automobile Engineering at Al-Kabir Polytechnic integrates mechanical, electrical, electronics, software, and safety engineering. This branch focuses on the design, manufacture, and operation of motorcycles, automobiles, buses, trucks, and their subsystems. The department has an intake capacity of 30 students.'
+        description: "The Automobile Engineering Department at Al-Kabir Polytechnic integrates mechanical, electrical, electronics, software, and safety engineering, focusing on the design and operation of vehicles and their subsystems. It admits 30 students annually."
     },
     {
         id: 7,
         img: [BBAImg],
         title: 'BBA',
-        description: 'Since its inception, the Bachelor of Business Administration (BBA) program has provided quality education in business management. Starting with a modest intake, it has grown significantly. With experienced faculty and modern facilities, we focus on essential business skills and practical knowledge. Our students excel in placements, attracting numerous prestigious companies for recruitment.'
+        description: "Since its inception, the BBA program has offered quality education in business management, growing significantly from a modest start. With experienced faculty and modern facilities, we emphasize essential business skills and practical knowledge. Our students excel in placements, attracting many prestigious recruiters."
     },
     {
         id: 8,
         img: [BCAImg],
         title: 'BCA',
-        description: 'Since its inception, the Bachelor of Computer Applications (BCA) program has provided quality education in computer science. Starting with a modest intake, it has grown significantly. With experienced faculty and modern facilities, we focus on essential technical skills and practical knowledge. Our students excel in placements, attracting numerous prestigious companies for recruitment.'
+        description: "Since its inception, the BCA program has offered quality education in computer science, growing significantly from a modest start. With experienced faculty and modern facilities, we emphasize essential technical skills and practical knowledge. Our students excel in placements, attracting many prestigious recruiters."
     },
 ];
 
@@ -69,7 +69,6 @@ function Courses() {
         <header className='height-75'>
             <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
                 <h1 className='text-center fw-semibold'>Our Courses</h1>
-                <p className='text-center w-75 mb-5'>Our courses at AKIMT cover a wide range of engineering disciplines, blending theoretical knowledge with practical applications. With dedicated faculty and advanced facilities, we prepare students to excel in fields like computer science, mechanical engineering, and electrical engineering. Our curriculum emphasizes innovation and critical thinking, ensuring graduates are well-equipped for successful careers in the industry.</p>
             </div>
         </header>
 
