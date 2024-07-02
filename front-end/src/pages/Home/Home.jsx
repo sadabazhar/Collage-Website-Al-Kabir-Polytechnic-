@@ -75,7 +75,7 @@ function Home() {
                         `}
                     </style>
                         <h2 className='text-capitalize'>2024 start courses</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, placeat.</p>
+                        <p>New for 2024: Explore our BBA and BCA courses! Designed for success in business and technology, our programs offer cutting-edge curriculum and expert guidance. Start your journey to a promising career today!</p>
                         <Link to="/courses">
                             <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0 custom-hover'>Learn More</button>
                         </Link>

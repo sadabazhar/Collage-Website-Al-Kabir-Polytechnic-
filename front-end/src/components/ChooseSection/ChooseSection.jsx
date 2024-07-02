@@ -5,7 +5,7 @@ function ChooseSection() {
   return (
     <div>
         <div className="container">
-            <h2 className='text-center mb-5'>Why choose AKMIT ?</h2>
+            <h2 className='text-center mb-5'>Why choose AKIMT ?</h2>
             <div className='row g-4'>
                 <div className='col-lg-4'>
                     <Card className='d-flex align-items-center border-0 h-100'>
@@ -17,8 +17,14 @@ function ChooseSection() {
                                 7 trophies received
                             </Card.Title>
                             <Card.Text className='text-center'>
-                                2 trophies from Arka Jain University, Jamshedpur
-                                5 trophies from NSU, Jamshedpur
+                                <ul>
+                                    <li>
+                                        We won 2 trophies at AAGAAZ - the mega cultural fest held by Arka Jain University, Jamshedpur.
+                                    </li>
+                                    <li>
+                                        We secured 5 trophies at Xplore X 2K23, hosted by NSU Jamshedpur.
+                                    </li>
+                                </ul>
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -33,7 +39,7 @@ function ChooseSection() {
                                 We deliver top-quality education
                             </Card.Title>
                             <Card.Text className='text-center'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit laborum qui facilis perspiciatis, ab pariatur! Eaque maxime ratione illum distinctio?
+                            At AKIMT, we offer top-quality education with a strong curriculum and hands-on learning, preparing students for successful engineering careers.
                             </Card.Text>
                         </Card.Body>
                     </Card>

@@ -7,30 +7,36 @@ function FaqAccordion() {
     <div className='faq-section'>
         <div className='container d-flex flex-column align-items-center'>
             <h2 className='text-center text-capitalize mb-5'>Frequently asked questions</h2>
-            <p className='text-center mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat numquam rem expedita similique necessitatibus dolore magnam natus sit ipsa, quae neque accusantium placeat laudantium mollitia, reprehenderit alias incidunt, delectus obcaecati cupiditate sed omnis repudiandae eos! Quasi unde veritatis labore quibusdam.</p>
+            <p className='text-center mb-5'>Explore our Engineering College's frequently asked questions (FAQs) to find answers to common queries about admissions, courses offered, faculty expertise, campus facilities, and more.</p>
             <Accordion defaultActiveKey="" flush>
                 <Accordion.Item eventKey='0'>
-                    <Accordion.Header>First question ?</Accordion.Header>
+                    <Accordion.Header>What are the eligibility criteria and  entrance exams are required for admission?</Accordion.Header>
                     <Accordion.Body>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab deserunt eaque nostrum voluptate, facilis ratione quo ducimus quod qui eius nobis quam temporibus similique fugit? Molestias, illo, maxime nulla aliquid ut pariatur corrupti aspernatur dolor assumenda quos officia eos?
+                    Admission can generally be secured based on the JCECE entrance exam, academic results, or through the management quota.
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='1'>
-                    <Accordion.Header>Second question ?</Accordion.Header>
+                    <Accordion.Header>How are the placement opportunities for core engineering branches?</Accordion.Header>
                     <Accordion.Body>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab deserunt eaque nostrum voluptate, facilis ratione quo ducimus quod qui eius nobis quam temporibus similique fugit? Molestias, illo, maxime nulla aliquid ut pariatur corrupti aspernatur dolor assumenda quos officia eos?
+                        AKIMT invite companies from various sectors, including Tata Motors, Tata Steel, and others, to conduct campus placements.
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='2'>
-                    <Accordion.Header>Third question ?</Accordion.Header>
+                    <Accordion.Header>How are the hostel facilities? Are they comfortable and well-maintained?</Accordion.Header>
                     <Accordion.Body>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab deserunt eaque nostrum voluptate, facilis ratione quo ducimus quod qui eius nobis quam temporibus similique fugit? Molestias, illo, maxime nulla aliquid ut pariatur corrupti aspernatur dolor assumenda quos officia eos?
+                    We have separate hostels for girls and boys, each providing comfortable beds and a good environment.
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='3'>
-                    <Accordion.Header>Fourth question ?</Accordion.Header>
+                    <Accordion.Header>What kind of sports and cultural activities are available on campus?</Accordion.Header>
                     <Accordion.Body>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ab deserunt eaque nostrum voluptate, facilis ratione quo ducimus quod qui eius nobis quam temporibus similique fugit? Molestias, illo, maxime nulla aliquid ut pariatur corrupti aspernatur dolor assumenda quos officia eos?
+                    Students can engage in outdoor sports like cricket, football, and athletics.
+                    </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey='4'>
+                    <Accordion.Header>What are the facilities like for labs and workshops?</Accordion.Header>
+                    <Accordion.Body>
+                    AKIMT offers workshops and various labs, including mechanical, computer, electrical, automobile, electronics, and civil labs.
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
