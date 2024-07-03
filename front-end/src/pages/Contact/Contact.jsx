@@ -45,9 +45,7 @@ function Contact() {
                     <Col sm={12} md={6} className='mb-3 mb-md-0'>
                         <Form.Label>Location</Form.Label>
                         <Form.Select defaultValue="London">
-                            <option>London</option>
-                            <option>Manchester</option>
-                            <option>Liverpool</option>
+                            <option>Mango</option>
                         </Form.Select>
                     </Col>
                     <Col sm={12} md={6}>
