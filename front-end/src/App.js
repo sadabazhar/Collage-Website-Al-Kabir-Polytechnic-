@@ -134,7 +134,7 @@ function App() {
         </div>
         <div className='bg-body-tertiary'>
           <div className='container'>
-            <p className='p-3 m-0 text-center'>copyright @ made by Sadab Azhar</p>
+            <p className='p-3 m-0 text-center'>copyright @ made by Project members</p>
           </div>
         </div>
       </footer>
