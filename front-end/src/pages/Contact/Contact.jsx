@@ -79,18 +79,24 @@ function Contact() {
         <div className='bg-dark text-light p-5'>
             <div className='container'>
                 <h2 className='text-center mb-5'> <i class="fa-solid fa-location-dot fa-2xl"></i>Our Location</h2>
-                <address>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.1304341698765!2d86.19338817406833!3d22.83466332331675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f15.0!3m3!1m2!1s0x39f5e3bfcef58ffb%3A0xd3357c8c43515441!2sAl-Kabir%20Polytechnic!5e0!3m2!1sen!2sin!4v1719916203860!5m2!1sen!2sin"
-                    width="1150"
-                    height="550"
-                    style={{ border: 0 }}
-                    allowFullScreen=""
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade">
+                <div>
+        
+        <address itemscope itemtype="http://schema.org/CollegeOrUniversity">
+            <p>Visit us at Al-Kabir Polytechnic College, located at Kabir Nagar, Jamshedpur. You can find us easily with the map below:</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.1304341698765!2d86.19338817406833!3d22.83466332331675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f15.0!3m3!1m2!1s0x39f5e3bfcef58ffb%3A0xd3357c8c43515441!2sAl-Kabir%20Polytechnic!5e0!3m2!1sen!2sin!4v1719916203860!5m2!1sen!2sin"
+                width="1295"
+                height="550"
+                style={{ border: 0 }}
+                allowFullScreen={true} 
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+            />
+            <p>Al-Kabir Polytechnic College, Jamshedpur, Jharkhand - Contact us for directions.</p>
+        </address>
 
-                    </iframe>
-                </address>
+</div>
+
             </div>
         </div>
     </div>

@@ -2,7 +2,6 @@ import React from 'react';
 import './Courses.css';
 import { Card } from 'react-bootstrap';
 import MechanicalImg from '../../utils/images/machenical.jpg';
-import ArtCourseImg from '../../utils/images/art-course.jpg';
 import ElectricalImg from '../../utils/images/electrical.jpeg';
 import ComputerScienceCourseImg from '../../utils/images/computer-science-course.jpeg';
 import ElectronicCourseImg from '../../utils/images/electronic.jpeg';

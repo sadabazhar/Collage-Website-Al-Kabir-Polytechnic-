@@ -118,13 +118,13 @@ function App() {
                 <div className='col-12 col-md-6 col-lg-7'>
                   <ul className='list-unstyled mb-0'>
                     <li>
-                      <p>Kapali, Via : Mango, Jamshedpur, Jharkhand, INDIA, Pin Code : 831012</p>
+                      <span itemprop="address">Kapali, Via : Mango, Jamshedpur, Jharkhand, INDIA, Pin Code : 831012</span>
                     </li>
                     <li>
-                      <p>Phone Number - 6591260414</p>
+                      <span itemprop="telephone">Phone Number - 6591260414</span>
                     </li>
                     <li>
-                      <p>Email - info@akp.ac.in</p>
+                      <span itemprop="email">Email - info@akp.ac.in</span>
                     </li>
                   </ul>
                 </div>
@@ -134,7 +134,7 @@ function App() {
         </div>
         <div className='bg-body-tertiary'>
           <div className='container'>
-            <p className='p-3 m-0 text-center'>copyright @ made by Project members</p>
+            <p className='p-3 m-0 text-center'>© 2024 Sadab Azhar and Saif Ahmad. All rights reserved.</p>
           </div>
         </div>
       </footer>
