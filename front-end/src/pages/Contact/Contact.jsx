@@ -31,26 +31,21 @@ function Contact() {
                 <Form.Group className='mb-3'>
                     <Form.Label>Email</Form.Label>
                     <Form.Control type='email' placeholder='Enter email' />
-                    <Form.Text className='text-muted'>
-                        We'll never share your email with anyone else.
-                    </Form.Text>
                 </Form.Group>
 
                 <Form.Group className='mb-3'>
                     <Form.Label>Address</Form.Label>
-                    <Form.Control placeholder='Your address' />
+                    <Form.Control placeholder='Enter complete address' />
                 </Form.Group>
 
                 <Row className='mb-3'>
-                    <Col sm={12} md={6} className='mb-3 mb-md-0'>
-                        <Form.Label>Location</Form.Label>
-                        <Form.Select defaultValue="London">
-                            <option>Mango</option>
-                        </Form.Select>
-                    </Col>
                     <Col sm={12} md={6}>
-                        <Form.Label>Postcode</Form.Label>
-                        <Form.Control placeholder='Postcode' />
+                        <Form.Label>Zipcode</Form.Label>
+                        <Form.Control placeholder='Enter zipcode' />
+                    </Col>
+                    <Col sm={12} md={6} className='mb-3 mb-md-0'>
+                        <Form.Label>Subject</Form.Label>
+                        <Form.Control placeholder='Message title' />
                     </Col>
                 </Row>
 
